@@ -47,7 +47,7 @@ C++
 │    ├── 3.2 Parameters Passing Types
 │    ├── 3.3 Default Arguments & Function Overloading
 │    └── 3.4 Inline Functions & Recursion
-├── 03 Arrays & Data Handling/                                          # Arrays, memory layout, etc.
+├── 04 Arrays & Data Handling/                             # Arrays, memory layout, etc.
 │    ├── 4.1 Foundational Arary Mechanics
 │    ├── 4.2 Multi-Dimensional Array Operations
 │    └── 4.3 Arary Memory Layout & Arrays vs Pointers
