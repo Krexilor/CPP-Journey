@@ -51,8 +51,12 @@ C++
 │    ├── 4.1 Foundational Arary Mechanics
 │    ├── 4.2 Multi-Dimensional Array Operations
 │    └── 4.3 Arary Memory Layout & Arrays vs Pointers
-├── 04 Pointers, References & Memory Basics\               # Pointers, references, etc.
+├── 04 Pointers, References & Memory Basics/               # Pointers, references, etc.
 │    ├── 5.1 Pointers & Pointer Arithmetic
+│    ├── 5.2 References & Pointers
+│    ├── 5.3 nullptr & dangling pointers
+│    ├── 5.4 Dynamic Memory
+│    └── 5.5 Arrays Pointer Relationships & Memory Layout
 ├── LICENSE
 └── README.md
 ```
