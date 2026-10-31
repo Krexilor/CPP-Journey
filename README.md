@@ -35,6 +35,7 @@ CPP-Journey/
 ├── 05 Pointers, References & Memory Basics/
 ├── build/                  # Local build output (Git-ignored)
 ├── .vscode/
+│   ├── launch.json
 │   └── tasks.json
 ├── .gitignore
 ├── LICENSE.txt
@@ -59,13 +60,15 @@ Replace the source path and executable name with the file you want to practice. 
 
 ### Using Visual Studio Code
 
-Open a `.cpp` practice file and run **Terminal → Run Build Task** (or press **Ctrl+Shift+B**). The configured task compiles the active file with `g++` and places the executable in the root `build/` directory. Run the generated executable from the terminal:
+Open the repository folder in VS Code and make a `.cpp` practice file active. Install the Microsoft **C/C++** extension and make sure `g++` and `gdb` are available in your system's `PATH`.
 
-```bash
-./build/<executable-name>
-```
+- Press **F5** to build the active file and run it with the debugger.
+- Use **Run → Start Without Debugging** (or **Ctrl+F5**) to build and run without the debugger.
+- Press **Ctrl+Shift+B** to build the active file without running it.
 
-This build task expects `g++` and `mkdir` to be available in your system's PATH.
+The executable is written under `build/`, keeping the source file's folder structure. For example, `00 CPP Practice/01 C++ Basics/01_personal_intro.cpp` is built to `build/00 CPP Practice/01 C++ Basics/01_personal_intro`. The run configurations use the repository root as the program's working directory.
+
+The VS Code build task uses `g++` with C++20 and the launch configuration uses `gdb`. You can still build and run files manually with the terminal commands above, using any compiler or workflow you prefer.
 
 ## Learning Goals
 
