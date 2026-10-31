@@ -1,12 +1,6 @@
 # Obsidian workspace
 .obsidian/
 
-# Ignore compiled practice binaries
-/00 CPP Practice/01 bin/*
-
-# Keep the bin folder on GitHub
-!/00 CPP Practice/01 bin/.gitkeep
-
 # Compiler-generated files
 *.o
 *.obj
@@ -17,8 +11,8 @@
 *.a
 *.gch
 
-# Build and debug output
-build/
-dist/
+# Build and debug output (generated locally; never committed)
+/build/
+/dist/
 *.log
 *.tmp

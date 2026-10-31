@@ -33,9 +33,39 @@ CPP-Journey/
 ├── 03 Functions/
 ├── 04 Arrays & Data Handling/
 ├── 05 Pointers, References & Memory Basics/
-├── LICENSE
+├── build/                  # Local build output (Git-ignored)
+├── .vscode/
+│   └── tasks.json
+├── .gitignore
+├── LICENSE.txt
 └── README.md
 ```
+
+## Building and Running Practice Programs
+
+Each `.cpp` file is a standalone practice program. Compile and run one file at a time from the repository root.
+
+### Using the terminal
+
+For example, to compile and run the first C++ Basics exercise:
+
+```bash
+mkdir -p build
+g++ "00 CPP Practice/01 C++ Basics/01_personal_intro.cpp" -o build/personal_intro
+./build/personal_intro
+```
+
+Replace the source path and executable name with the file you want to practice. The `build/` directory is created at the repository root and is ignored by Git, so compiled binaries are not committed.
+
+### Using Visual Studio Code
+
+Open a `.cpp` practice file and run **Terminal → Run Build Task** (or press **Ctrl+Shift+B**). The configured task compiles the active file with `g++` and places the executable in the root `build/` directory. Run the generated executable from the terminal:
+
+```bash
+./build/<executable-name>
+```
+
+This build task expects `g++` and `mkdir` to be available in your system's PATH.
 
 ## Learning Goals
 
@@ -62,4 +92,4 @@ Documenting the learning process makes it easier to track progress, revisit conc
 
 This repository is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
 
-You are free to use, adapt, and distribute the notes, provided appropriate attribution is given. See [LICENSE](LICENSE) for the full license text.
+You are free to use, adapt, and distribute the notes, provided appropriate attribution is given. See [LICENSE.txt](LICENSE.txt) for the full license text.
