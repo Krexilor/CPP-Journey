@@ -9,7 +9,7 @@ Perimeter = 2 × (length + width)
 int main() {
     float area, perimeter, length = 0, width = 0;
 
-    std::cout << "Enter lenght of rectangle: ";
+    std::cout << "Enter length of rectangle: ";
     std::cin >> length;
 
     std::cout << "Enter width of rectangle: ";

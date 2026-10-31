@@ -1,6 +1,7 @@
 /* Question 4: Understand pass by value
 Write a function increment(int n) that increases its parameter by 1.
 In main(), create an integer, call the function, and print the variable both before and after the call.
+The original variable remains unchanged because the function receives a copy.
 
 Explain in a comment why the original variable does or does not change.
 */
@@ -17,11 +18,6 @@ int main() {
     std::cout << "Before: " << num << "\n";
     std::cout << "Function result: " << increment(num) << "\n";
     std::cout << "After: " << num << "\n";
-
-    /*
-    Original value remains unchanged because it's copy is passed to the 
-    function where function applies the modifications on the duplicate value.
-    */
 
     return 0;
 }

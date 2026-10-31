@@ -1,7 +1,7 @@
 /* Question 4: Find minimum and maximum
-    Given an array of integers, find its largest and smallest elements.
-    Initialize your tracking variables using an actual array element rather
-    than assuming the numbers are positive.
+Given an array of integers, find its largest and smallest elements.
+Initialize your tracking variables using an actual array element rather
+than assuming the numbers are positive.
 */
 
 #include <iostream>

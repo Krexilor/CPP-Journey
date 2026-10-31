@@ -18,18 +18,18 @@ int main() {
 
         if (num > 0) {
             if (isEven) {
-                std::cout << num << " is positive and even number.\n";
+                std::cout << num << " is positive and even.\n";
             }
             else {
-                std::cout << num << " is positive and odd number.\n";
+                std::cout << num << " is positive and odd.\n";
             }
         }
         else {
             if (isEven) {
-                std::cout << num << " is negative and even number.\n";
+                std::cout << num << " is negative and even.\n";
             }
             else {
-                std::cout << num << " is negative and odd number.\n";
+                std::cout << num << " is negative and odd.\n";
             }
         }
     }

@@ -1,6 +1,6 @@
 /* Question 10: Calculate statistics using functions
-    Write separate functions to calculate the sum, maximum, and minimum of an integer array.
-    Pass the array and its size to each function. Test all three using the same array.
+Write separate functions to calculate the sum, maximum, and minimum of an integer array.
+Pass the array and its size to each function. Test all three using the same array.
 */
 
 #include <iostream>

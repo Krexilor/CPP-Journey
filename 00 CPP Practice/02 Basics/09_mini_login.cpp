@@ -5,7 +5,7 @@ Store a username and PIN as constants. Ask the user to enter both. Print Access 
 #include <string>
 #include <iostream>
 
-int main () {
+int main() {
     const std::string username = "krex";
     const std::string pin = "1213";
 
@@ -14,7 +14,7 @@ int main () {
     std::cout << "Enter username: ";
     std::cin >> myUser;
 
-    std::cout << "Enter Pin: ";
+    std::cout << "Enter PIN: ";
     std::cin >> myPin;
 
     if (myUser == username && myPin == pin) {

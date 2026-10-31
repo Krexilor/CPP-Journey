@@ -1,10 +1,10 @@
-/* Question 9: Practise function overloading
-    Create three overloaded functions named area():
-    - One accepts the side of a square.
-    - One accepts the length and width of a rectangle.
-    - One accepts the radius of a circle.
-    Use parameter types or counts to distinguish the overloads correctly.
-    Return the calculated area and call each version from main().
+/* Question 9: Practice function overloading
+Create three overloaded functions named area():
+- One accepts the side of a square.
+- One accepts the length and width of a rectangle.
+- One accepts the radius of a circle.
+Use parameter types or counts to distinguish the overloads correctly.
+Return the calculated area and call each version from main().
 */
 
 #include <iostream>
@@ -25,10 +25,10 @@ int main() {
     float result;
 
     result = area(5);
-    std::cout << "Aread of square: " << result << "\n";
+    std::cout << "Area of square: " << result << "\n";
 
     result = area(5.8f, 7);
-    std::cout << "Aread of rectangle: " << result << "\n";
+    std::cout << "Area of rectangle: " << result << "\n";
 
     result = area(3.0f);
     std::cout << "Area of circle: " << result << "\n";

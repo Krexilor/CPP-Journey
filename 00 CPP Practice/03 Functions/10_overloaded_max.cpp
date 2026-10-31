@@ -1,7 +1,7 @@
 /* Question 10: Overload a function for different data types
-    Write overloaded functions named getMax() that return the larger of two integers, two double values, or three integers.
-    Test all overloads with suitable inputs. Make sure the parameter lists differ
-    and that each call resolves to the intended function.
+Write overloaded functions named getMax() that return the larger of two integers, two double values, or three integers.
+Test all overloads with suitable inputs. Make sure the parameter lists differ
+and that each call resolves to the intended function.
 */
 
 #include <iostream>

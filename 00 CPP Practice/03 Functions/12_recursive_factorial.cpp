@@ -1,8 +1,8 @@
 /* Question 12: Calculate a factorial recursively
-    Write factorial(int n) using recursion to calculate n!.
-    For example, factorial(5) should return 120.
-    Include a base case and a recursive case. Decide how your function will handle negative inputs,
-    since factorial is not defined for negative integers.
+Write factorial(int n) using recursion to calculate n!.
+For example, factorial(5) should return 120.
+Include a base case and a recursive case. Decide how your function will handle negative inputs,
+since factorial is not defined for negative integers.
 */
 
 #include <iostream>

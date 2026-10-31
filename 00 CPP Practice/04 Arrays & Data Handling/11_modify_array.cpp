@@ -1,13 +1,10 @@
 /* Question 11: Modify an array through a function
-    Write doubleElements(int arr[], int size) to multiply every element by two. 
-    Call it and print the array before and after the function call. 
-    Explain why the original array changes even though you didn't pass each integer by reference.
+Write doubleElements(int arr[], int size) to multiply every element by two.
+Call it and print the array before and after the function call.
+The original array changes because the array parameter provides access to its elements.
 */
 
 #include <iostream>
-
-// An array parameter provides access to the original array's elements.
-// The function can modify those elements, so the changes are visible in main().
 
 void doubleElements(int arr[], int size) {
     for (int i = 0; i < size; i++) {

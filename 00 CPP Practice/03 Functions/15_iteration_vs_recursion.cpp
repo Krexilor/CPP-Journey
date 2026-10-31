@@ -1,9 +1,10 @@
 /* Question 15: Compare iteration and recursion
-    Write two functions that calculate the sum of integers from 1 to N:
-    - sumIterative(int n) uses a loop.
-    - sumRecursive(int n) uses recursion.
-    Call both with the same input and display both results. Make sure they agree, handle the base case,
-    and explain in a comment one advantage of iteration and one advantage of recursion.
+Write two functions that calculate the sum of integers from 1 to N:
+- sumIterative(int n) uses a loop.
+- sumRecursive(int n) uses recursion.
+Call both with the same input and display both results. Make sure they agree and handle the base case.
+Iteration often uses less memory because it avoids repeated function calls. Recursion can make problems easier to express when they naturally break into smaller versions of the same problem.
+and explain in a comment one advantage of iteration and one advantage of recursion.
 */
 
 #include <iostream>
@@ -34,11 +35,5 @@ int main() {
 
     std::cout << "Iterative sum from 1 to " << num << ": " << sumIterative(num) << "\n";
     std::cout << "Recursive sum from 1 to " << num << ": " << sumRecursive(num) << "\n";
-
-    /*
-        Iteration often uses less memory because it avoids repeated function calls.
-        Recursion can make problems easier to express when they naturally break
-        into smaller versions of the same problem.
-    */
     return 0;
 }

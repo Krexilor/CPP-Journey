@@ -1,4 +1,4 @@
-/* Question 2: Simple Calulator
+/* Question 2: Simple Calculator
 Store two numbers in variables. Print their sum, difference, product, and quotient.
 */
 
@@ -9,10 +9,10 @@ int main() {
     float num2 = 8;         // Declaring and assigning second variable
 
     std::cout << "\n===== Simple Calculator =====\n";
-    std::cout << "First No.: " << num1 << "\n";
-    std::cout << "Second No.: " << num2 << "\n";
+    std::cout << "First number: " << num1 << "\n";
+    std::cout << "Second number: " << num2 << "\n";
     std::cout << "\n";
-    std::cout << "Some Arithmetic Operations applied on numbers:-\n";
+    std::cout << "Arithmetic operations:\n";
     std::cout << "Sum: " << num1 + num2 << "\n";
     std::cout << "Difference: " << num1 - num2 << "\n";
     std::cout << "Product: " << num1 * num2 << "\n";

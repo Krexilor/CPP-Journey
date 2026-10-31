@@ -1,6 +1,6 @@
 /* Question 6: Linear search
-    Search an array for a number entered by the user. Print the index of its first occurrence, or -1 if it isn't present.
-    Stop searching once the first occurrence is found.
+Search an array for a number entered by the user. Print the index of its first occurrence, or -1 if it isn't present.
+Stop searching once the first occurrence is found.
 */
 
 #include <iostream>

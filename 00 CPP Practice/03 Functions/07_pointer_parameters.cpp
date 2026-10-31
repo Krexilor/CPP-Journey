@@ -1,7 +1,7 @@
-/* Question 7: Modify a vairbale using a pointer parameter
-    Write increment(int* ptr) to increase the value pointed to by ptr.
-    Call it using the address of an integer variable, then display the updated value.
-    Also handle a nullptr safely by checking the pointer before dereferencing it.
+/* Question 7: Modify a variable using a pointer parameter
+Write increment(int* ptr) to increase the value pointed to by ptr.
+Call it using the address of an integer variable, then display the updated value.
+Also handle a nullptr safely by checking the pointer before dereferencing it.
 */
 
 #include <iostream>
@@ -22,6 +22,6 @@ int main() {
     std::cout << "Updated value: " << value << "\n";
 
     increment(nullptr);     // Tests the safety check
-    
+
     return 0;
 }

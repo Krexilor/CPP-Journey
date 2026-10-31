@@ -1,6 +1,6 @@
 /* Question 1: Declare, initialize, and print an array
-    Declare an integer array containing five numbers. Print all elements in order using a for loop,
-    then print them using a range-based for loop.
+Declare an integer array containing five numbers. Print all elements in order using a for loop,
+then print them using a range-based for loop.
 */
 
 #include <iostream>

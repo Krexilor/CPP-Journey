@@ -1,6 +1,6 @@
 /* Question 8: Count occurrences
-    Given an array and a target number, count how many times the target appears.
-    Unlike Question 6, you must examine the entire array.
+Given an array and a target number, count how many times the target appears.
+Unlike Question 6, you must examine the entire array.
 */
 
 #include <iostream>
@@ -14,7 +14,7 @@ int main() {
         std::cout << n << " ";
     }
 
-    std::cout << "\nEnter number to count occurrence: ";
+    std::cout << "\nEnter a number to count occurrences: ";
     std::cin >> num;
 
     for (int i = 0; i < 10; i++) {
@@ -23,7 +23,7 @@ int main() {
         }
     }
 
-    std::cout << "\nOccurrence of " << num << ": " << count << "\n";
+    std::cout << "\nOccurrences of " << num << ": " << count << "\n";
 
     return 0;
 }

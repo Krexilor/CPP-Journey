@@ -11,7 +11,7 @@ int main() {
     std::cin >> n;
 
     if (n <= 0) {
-        std::cout << "Enter number greater then 1.\n";
+        std::cout << "Enter a number greater than 0.\n";
     }
     else {
         for (int i = 1; i <= n; i++) {

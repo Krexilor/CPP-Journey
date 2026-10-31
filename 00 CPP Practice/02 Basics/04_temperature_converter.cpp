@@ -6,14 +6,14 @@ Formula: F = (9/5)C + 32
 #include <iostream>
 
 int main() {
-    float F, C;
+    float fahrenheit, celsius;
 
-    std::cout << "Enter temperature in celsius: ";
-    std::cin >> C;
+    std::cout << "Enter temperature in Celsius: ";
+    std::cin >> celsius;
 
-    F = ((9.0f / 5.0f) * C) + 32;
+    fahrenheit = ((9.0f / 5.0f) * celsius) + 32;
 
-    std::cout << "\n" << C << " celsius is equal to " << F << " fehrenheit";
+    std::cout << "\n" << celsius << " Celsius is equal to " << fahrenheit << " Fahrenheit";
 
     return 0;
 }

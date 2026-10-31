@@ -1,6 +1,6 @@
 /* Question 3: Sum and average
-    Take five numbers as input. Calculate their sum and average.
-    Make sure the average can contain a decimal value.
+Take five numbers as input. Calculate their sum and average.
+Make sure the average can contain a decimal value.
 */
 
 #include <iostream>

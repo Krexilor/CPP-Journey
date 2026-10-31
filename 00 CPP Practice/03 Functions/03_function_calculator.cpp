@@ -45,7 +45,7 @@ int main() {
         if (choice >= '1' && choice <= '4') {
             std::cout << "\nEnter first number: ";
             std::cin >> a;
-            
+
             std::cout << "Enter second number: ";
             std::cin >> b;
         }
@@ -71,16 +71,16 @@ int main() {
                     result = division(a, b);
                     std::cout << "Division of " << a << " & " << b << " is: " << result << "\n\n";
                 }
-                
+
                 break;
             case '0':
                 std::cout << "Exiting calculator. Goodbye!\n";
                 break;
             default:
-                std::cout << "Invalid choice. Please enter a number from 1 to 4 or 0 to quit.";
+                std::cout << "Invalid choice. Please enter a number from 1 to 4, or 0 to quit.\n\n";
                 break;
         }
     } while (choice != '0');
-    
+
     return 0;
 }

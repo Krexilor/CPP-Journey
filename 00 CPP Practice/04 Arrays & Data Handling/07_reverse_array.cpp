@@ -1,6 +1,6 @@
 /* Question 7: Reverse an array in place
-    Reverse an array without creating a second array. Use two indices, one starting at
-    the beginning and one at the end, and swap their elements as they move toward the middle.
+Reverse an array without creating a second array. Use two indices, one starting at
+the beginning and one at the end, and swap their elements as they move toward the middle.
 */
 
 #include <iostream>

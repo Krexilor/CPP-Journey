@@ -1,4 +1,4 @@
-/* Question 2: Function declaration and definitions
+/* Question 2: Function declarations and definitions
 Write a program that declares add(), subtract(), and multiply() before main(), but defines them after main().
 Ask the user for two numbers, call each function, and display all three results. Use appropriate return types.
 */

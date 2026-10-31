@@ -1,6 +1,6 @@
 /* Question 15: Matrix transpose
-    Transpose a 2 × 3 matrix into a separate 3 × 2 matrixay. For each original element at [row][col],
-    store it at [col][row] in the result. Print the transposed matrix.
+Transpose a 2 × 3 matrix into a separate 3 × 2 matrix. For each original element at [row][col],
+store it at [col][row] in the result. Print the transposed matrix.
 */
 
 #include <iostream>
@@ -15,7 +15,7 @@ int main() {
 
     for (int row = 0; row < 2; row++) {
         for (int col = 0; col < 3; col++) {
-            transposed[col][row] = matrix[row][col]; 
+            transposed[col][row] = matrix[row][col];
         }
     }
 

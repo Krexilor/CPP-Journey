@@ -1,6 +1,6 @@
 /* Question 12: Display a matrix
-    Create a 3 × 3 integer matrix, take input for all nine elements,
-    and display it in a proper row-and-column format using nested loops.
+Create a 3 × 3 integer matrix, take input for all nine elements,
+and display it in a proper row-and-column format using nested loops.
 */
 
 #include <iostream>

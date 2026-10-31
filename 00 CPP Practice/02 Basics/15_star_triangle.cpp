@@ -17,7 +17,7 @@ int main() {
     std::cin >> rows;
 
     if (rows <= 0) {
-        std::cout << "Enter number greater then 0\n";
+        std::cout << "Enter a number greater than 0\n";
     }
     else {
         for (int i = 0; i < rows; i++) {

@@ -11,7 +11,7 @@ int main() {
     std::cin >> num;
 
     if (num <= 0) {
-        std::cout << "Number must be positive.\n"; 
+        std::cout << "The number must be positive.\n";
     }
     else {
         for (int i = 1; i <= 10; i++) {
@@ -19,6 +19,6 @@ int main() {
         }
         std::cout << "\n";
     }
-    
+
     return 0;
 }

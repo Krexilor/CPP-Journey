@@ -10,22 +10,22 @@ Call all three from main() and display the results.
 #include <string>
 #include <iostream>
 
-// Greet Function
+// Greet function
 void greet(std::string name) {
     std::cout << "Hello " << name << "!\n";
 }
 
-// Square Function
+// Square function
 int square(int n) {
     return n * n;
 }
 
-// Check Even or Odd Function
+// Check whether a number is even
 bool isEven(int n) {
     return n % 2 == 0;
 }
 
-// Main Function
+// Main function
 int main() {
     std::string name = "Aarav";
     int num = 5;
@@ -41,6 +41,6 @@ int main() {
     else {
         std::cout << num << " is Odd\n";
     }
-    
+
     return 0;
 }

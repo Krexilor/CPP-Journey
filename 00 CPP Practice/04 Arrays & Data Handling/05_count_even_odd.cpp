@@ -1,6 +1,6 @@
 /* Question 5: Count even and odd numbers
-    Read 10 integers into an array. Count how many are even and how many are odd.
-    Remember that zero is even.
+Read 10 integers into an array. Count how many are even and how many are odd.
+Remember that zero is even.
 */
 
 #include <iostream>
@@ -10,8 +10,8 @@ int main() {
     int countEven = 0, countOdd = 0;
 
     for (int i = 0; i < 10; i++) {
-        std::cout << "Enter index [" << i << "]" << ": ";
-        std::cin >> arr[i]; 
+        std::cout << "Enter index [" << i << "]: ;
+        std::cin >> arr[i];
     }
 
     std::cout << "\nArray: ";

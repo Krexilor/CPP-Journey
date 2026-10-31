@@ -5,19 +5,19 @@ Store two values, swap them, and print the values before and after swapping. Try
 #include <iostream>
 
 int main() {
-    int val1 = 2;
-    int val2 = 3;
-    int tempVal;
+    int firstValue = 2;
+    int secondValue = 3;
+    int temp;
 
     std::cout << "Values before swapping\n";
-    std::cout << "Val 1: " << val1 << "\nVal 2: " << val2 << "\n\n";
+    std::cout << "First value: " << val1 << "\nSecond value: " << val2 << "\n\n";
 
-    tempVal = val1;      // Assign value 1 to temp variable
-    val1 = val2;         // Change value 1 to value 2 with assignment
-    val2 = tempVal;      // Change value 2 with temp variable with assignment
+    temp = firstValue;      // Assign value 1 to temp variable
+    firstValue = secondValue;         // Assign the second value to the first
+    secondValue = temp;      // Assign the temporary value to the second
 
     std::cout << "Values after swapping\n";
-    std::cout << "Val 1: " << val1 << "\nVal 2: " << val2 << "\n\n";
+    std::cout << "First value: " << val1 << "\nSecond value: " << val2 << "\n\n";
 
     return 0;
 }

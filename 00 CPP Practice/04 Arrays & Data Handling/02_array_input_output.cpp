@@ -1,5 +1,5 @@
 /* Question 2: Take input and display elements
-    Create an array that stores five integers entered by the user. Print the values in the same order they were entered.
+Create an array that stores five integers entered by the user. Print the values in the same order they were entered.
 */
 
 #include <iostream>

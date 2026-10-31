@@ -17,7 +17,7 @@ int main() {
     std::cin >> marks;
 
     if (marks >= 0 && marks <= 100) {
-        if (marks >= 90){
+        if (marks >= 90) {
             std::cout << "It's A grade.\n";
         }
         else if (marks >= 80 && marks <= 89) {
@@ -34,6 +34,6 @@ int main() {
         }
     }
     else {
-        std::cout << "Enter valid marks between 0 to 100.\n" << std::endl;
+        std::cout << "Enter valid marks between 0 and 100.\n" << std::endl;
     }
 }

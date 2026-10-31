@@ -1,6 +1,6 @@
 /* Question 14: Matrix addition
-    Create two 2 × 3 matrices. Calculate their element-wise sum into a third matrix and display the result.
-    Use nested loops rather than writing each addition manually.
+Create two 2 × 3 matrices. Calculate their element-wise sum into a third matrix and display the result.
+Use nested loops rather than writing each addition manually.
 */
 
 #include <iostream>
@@ -24,7 +24,7 @@ int main() {
         }
     }
 
-    std::cout << "New resultant matrixay: \n";
+    std::cout << "New resultant matrix: \n";
     for (const auto& row : matrix3) {
         for (auto val : row) {
             std::cout << val << " ";

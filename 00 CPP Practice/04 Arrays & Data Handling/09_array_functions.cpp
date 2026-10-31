@@ -1,12 +1,10 @@
 /* Question 9: Pass an array to a function
-    Write a function printArray(int arr[], int size) that prints all elements. Call it from main() using an array of your choice.
-    Explain in a comment why the size is passed separately.
+Write a function printArray(int arr[], int size) that prints all elements. Call it from main() using an array of your choice.
+The size is passed separately because an array parameter is adjusted to a pointer, so sizeof(arr) does not return the original array's size.
+Explain in a comment why the size is passed separately.
 */
 
 #include <iostream>
-
-// The array's size is passed separately because, inside the function,
-// arr[] is treated as a pointer, so sizeof(arr) won't give the full array size.
 
 void printArray(int arr[], int size) {
     for (int i = 0; i < size; i++) {

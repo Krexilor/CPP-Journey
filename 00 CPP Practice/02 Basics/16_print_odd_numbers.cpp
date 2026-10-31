@@ -1,5 +1,5 @@
 /* Question 16: Print Odd Numbers
-Print all odd numbers from 1 to N
+Print all odd numbers from 1 to N.
 */
 
 #include <iostream>
@@ -11,7 +11,7 @@ int main() {
     std::cin >> num;
 
     if (num <= 0) {
-        std::cout << "Enter number greater then 0.\n";
+        std::cout << "Enter a number greater than 0.\n";
     }
     else {
         for (int i = 1; i <= num; i++) {

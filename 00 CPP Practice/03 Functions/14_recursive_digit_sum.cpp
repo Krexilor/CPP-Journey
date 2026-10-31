@@ -1,7 +1,7 @@
 /* Question 14: Find the sum of digits recursively
-    Write sumDigits(int n) that returns the sum of the digits of a non-negative integer using recursion.
-    Examples: sumDigits(472) returns 13, and sumDigits(9) returns 9.
-    Hint: use % 10 to obtain the last digit and / 10 to remove it. Include a base case for when the remaining number reaches zero.
+Write sumDigits(int n) that returns the sum of the digits of a non-negative integer using recursion.
+Examples: sumDigits(472) returns 13, and sumDigits(9) returns 9.
+Hint: use % 10 to obtain the last digit and / 10 to remove it. Include a base case for when the remaining number reaches zero.
 */
 
 #include <iostream>

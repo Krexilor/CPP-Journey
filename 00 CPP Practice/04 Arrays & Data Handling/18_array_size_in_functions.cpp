@@ -1,7 +1,8 @@
 /* Question 18: Understand array decay in functions
-    Declare an array of five integers. Print sizeof(arr) in main(), then pass the array to a function that prints sizeof(arr) for its parameter.
-    Compare the results and explain why the function cannot determine the original array length from that parameter alone.
-    Pass the size separately and use it to print the elements safely.
+Declare an array of five integers. Print sizeof(arr) in main(), then pass the array to a function that prints sizeof(arr) for its parameter.
+Compare the results and explain why the function cannot determine the original array length from that parameter alone.
+Pass the size separately and use it to print the elements safely.
+When an array is passed to a function, a one-dimensional array parameter such as int arr[] is adjusted to a pointer to its first element. Therefore, sizeof(arr) returns the pointer's size rather than the original array's total size. The function cannot determine the original array's length from that pointer alone.
 */
 
 #include <iostream>
@@ -29,12 +30,6 @@ int main() {
     std::cout << "No. of elements: " << size << "\n";
     printArraySize(arr);
     printArray(arr, size);
-
-    /*
-        When an array is passed to a function, a one-dimensional array parameter such as int arr[] is adjusted to a pointer to its first element.
-        The function therefore cannot determine the original array's length from that pointer alone, and sizeof(arr) returns the pointer's size
-        rather than the original array's total size. We pass the number of elements separately so the function knows how many elements it can safely access.
-    */
 
     return 0;
 }

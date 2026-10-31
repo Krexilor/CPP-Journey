@@ -7,7 +7,7 @@ Ask the user for their age in years and estimate how many days they've lived. As
 int main() {
     int age = 0, daysLived;
 
-    std::cout << "Enter you age (in years): ";
+    std::cout << "Enter your age (in years): ";
     std::cin >> age;
 
     daysLived = age * 365;
